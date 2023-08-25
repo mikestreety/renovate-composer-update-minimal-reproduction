@@ -9,5 +9,10 @@
             "type": "path",
             "url": "./app/*"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "typo3/cms-composer-installers": true
+        }
+    }
 }
