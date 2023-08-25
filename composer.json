@@ -1,0 +1,13 @@
+{
+    "name": "mike/testrenovate",
+    "type": "project",
+    "require": {
+        "app/package": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./app/*"
+        }
+    ]
+}

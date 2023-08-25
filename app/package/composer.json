@@ -1,0 +1,9 @@
+{
+	"name": "app/package",
+	"description": "",
+	"type": "library",
+	"require": {
+		"lavitto/typo3-form-to-database": "^3.0.0",
+		"typo3/cms-core": "^11.5.29"
+	}
+}
