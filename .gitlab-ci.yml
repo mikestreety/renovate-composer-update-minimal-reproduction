@@ -1,0 +1,11 @@
+stages:
+  - testing
+
+package:audit:
+  image: composer:latest
+  interruptible: true
+  stage: testing
+  script:
+    - composer audit 2>&1 || true
+  rules:
+    - if: '$CI_COMMIT_BRANCH =~ /^renovate\//' # If this is a renovate branch

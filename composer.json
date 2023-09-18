@@ -2,7 +2,9 @@
     "name": "mike/testrenovate",
     "type": "project",
     "require": {
-        "app/package": "dev-main"
+        "app/package": "@dev",
+        "yoast-seo-for-typo3/yoast_seo": "8.2.0",
+        "blueways/bw-captcha": "1.1.4"
     },
     "repositories": [
         {
@@ -10,7 +12,11 @@
             "url": "./app/*"
         }
     ],
+
     "config": {
+        "platform": {
+            "php": "7.4"
+        },
         "allow-plugins": {
             "typo3/cms-composer-installers": true,
             "typo3/class-alias-loader": true
