@@ -38,6 +38,7 @@ Use the option --with-all-dependencies (-W) to allow upgrades, downgrades and re
 You can see the `composer update` does **not** include `sypets/brofix`
 
 <details><summary>Logs</summary>
+
 ```
 > renovate@1.0.0 renovate-debug
 > LOG_LEVEL=debug renovate ll/testrenovate
